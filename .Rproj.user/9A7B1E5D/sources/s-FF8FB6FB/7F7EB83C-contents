@@ -1,0 +1,8 @@
+library("rplos")
+library(rcrossref)
+library(tidyverse)
+
+install.packages("fulltext")
+
+dois <- read_csv("tittle_abstract_screening_outcome/title_abstract_screening_outcome.csv")
+View(dois)
